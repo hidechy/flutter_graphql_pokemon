@@ -229,7 +229,7 @@ query {
             classification:
                 queryResult.data!['pokemons'][i]['classification'] ?? "",
             image: queryResult.data!['pokemons'][i]['image'] ?? "",
-            fleeRate: queryResult.data!['pokemons'][i]['fleeRate'] ?? "",
+            fleeRate: queryResult.data!['pokemons'][i]['fleeRate'] ?? 0.0,
             maxHP: queryResult.data!['pokemons'][i]['maxHP'] ?? 0,
             maxCP: queryResult.data!['pokemons'][i]['maxCP'] ?? 0,
             types: types,
